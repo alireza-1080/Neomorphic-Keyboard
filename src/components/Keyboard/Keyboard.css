@@ -1,0 +1,20 @@
+.keyboard-container {
+    width: 1000px;
+    height: 340px;
+    background-color: #EEF0F4;
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.keyboard-row {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 18px;
+}
